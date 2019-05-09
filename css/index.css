@@ -1,0 +1,92 @@
+@import "./reset.css";
+
+* {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: bold;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+i {
+    font-family: fontawesome !important;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.container {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 240px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.heading, .links-block, .email {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.links-block ul {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.links-block ul li {
+    margin-right: 10px;
+    font-size: 24px !important;
+}
+
+.email {
+    font-size: 24px;
+}
+
+.email a {
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+.fa-facebook-square {
+    color: #3c5a99;
+}
+
+.fa-twitter {
+    color: #1da1f2;   
+}
+
+.fa-instagram {
+    color: #e1306c;
+}
+
+.fa-linkedin {
+    color: #0077B5;
+}
+
+.fa-music {
+    color: #ff0000;
+}
+
+.fa:hover {
+    color: rgb(255, 255, 255, 0.8);
+}
