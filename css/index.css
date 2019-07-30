@@ -1,22 +1,11 @@
 @import "./reset.css";
 
-* {
-    font-family: 'Lato', sans-serif !important;
-    font-weight: bold;
-    color: rgb(255, 255, 255, 0.8);
-}
-
-i {
-    font-family: fontawesome !important;
-}
-
 body {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
 }
 
 .container {
@@ -26,67 +15,57 @@ body {
     flex-flow: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 240px;
-    height: 140px;
+    max-width: 350px;
+    max-height: 500px;
     overflow: hidden;
 }
 
-.heading, .links-block, .email {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+.block {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
 }
 
-.heading {
+.left-block img {
+    width: 100%;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-block h1 {
     font-size: 32px;
 }
 
-.links-block ul {
-    width: 50%;
+.text-block h2 {
+    font-size: 18px;
+}
+
+.text-block h3 {
+    font-size: 14px;
+}
+
+.links-block {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.links-block ul li {
-    margin-right: 10px;
-    font-size: 24px !important;
-}
-
-.email {
+.links-block li {
     font-size: 24px;
+    margin-right: 20px;
+    margin: 0px 20px 10px 0px;
 }
 
-.email a {
+.links-block a {
+    color: #000;
     text-decoration: none;
 }
 
-.email a:hover {
+.links-block a:hover {
     text-decoration: underline;
-}
-
-.fa-facebook-square {
-    color: #3c5a99;
-}
-
-.fa-twitter {
-    color: #1da1f2;   
-}
-
-.fa-instagram {
-    color: #e1306c;
-}
-
-.fa-linkedin {
-    color: #0077B5;
-}
-
-.fa-music {
-    color: #ff0000;
-}
-
-.fa:hover {
-    color: rgb(255, 255, 255, 0.8);
 }
