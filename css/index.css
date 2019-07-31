@@ -1,5 +1,13 @@
 @import "./reset.css";
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -16,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 350px;
-    max-height: 500px;
+    max-height: 450px;
     overflow: hidden;
 }
 
@@ -42,7 +50,7 @@ body {
 }
 
 .text-block h2 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .text-block h3 {
@@ -56,9 +64,8 @@ body {
 }
 
 .links-block li {
-    font-size: 24px;
-    margin-right: 20px;
-    margin: 0px 20px 10px 0px;
+    font-size: 14px;
+    margin: 0px 10px 10px 0px;
 }
 
 .links-block a {
